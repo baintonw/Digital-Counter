@@ -4,7 +4,7 @@ body {
   background: #f3f3f3;
 }
 
-.number {
+.digit {
   position:fixed;
   top:40%;
   left:45%;
@@ -95,6 +95,94 @@ body {
     }
   }
 
+  &.five > {
+    #top {
+      opacity: 1;
+    }
+    #top-left {
+      opacity: 1;
+    }
+    #middle {
+      opacity: 1;
+    }
+    #bottom-right {
+      opacity: 1;
+    }
+    #bottom {
+      opacity: 1;
+    }
+  }
+  &.six > {
+    #top {
+      opacity: 1;
+    }
+    #top-left {
+      opacity: 1;
+    }
+    #middle {
+      opacity: 1;
+    }
+    #bottom-right {
+      opacity: 1;
+    }
+    #bottom-left {
+      opacity: 1;
+    }
+    #bottom {
+      opacity: 1;
+    }
+  }
+  &.seven {
+    #top {
+      opacity: 1;
+    }
+    #top-right {
+      opacity: 1;
+    }
+    #bottom-right {
+      opacity: 1;
+    }
+  }
+  &.eight > {
+    #top {
+      opacity: 1;
+    }
+    #top-right {
+      opacity: 1;
+    }
+    #bottom-right {
+      opacity: 1;
+    }
+    #bottom {
+      opacity: 1;
+    }
+    #bottom-left {
+      opacity: 1;
+    }
+    #top-left {
+      opacity: 1;
+    }
+    #middle {
+      opacity: 1;
+    }
+  }
+  &.nine {
+    #top {
+      opacity: 1;
+    }
+    #top-left {
+      opacity :1;
+    }
+    #top-right {
+      opacity: 1;
+    }
+    #middle {
+      opacity: 1;
+    }
+    #bottom-right {
+      opacity: 1;
+    }
+  }
 
 }
 
@@ -225,4 +313,10 @@ opacity: 0;
   // height: 10px;
   // background: #bada55;
 
+}
+
+button {
+    position: fixed;
+    top: 68%;
+    left: 47.4%;
 }
