@@ -1,0 +1,228 @@
+
+
+body {
+  background: #f3f3f3;
+}
+
+.number {
+  position:fixed;
+  top:40%;
+  left:45%;
+  width: 100px;
+  height: 200px;
+  border: 2px solid blue;
+  color: #bada55;
+  background: #444;
+
+  &.zero > {
+    #top {
+      opacity: 1;
+    }
+    #top-right {
+      opacity: 1;
+    }
+    #bottom-right {
+      opacity: 1;
+    }
+    #bottom {
+      opacity: 1;
+    }
+    #bottom-left {
+      opacity: 1;
+    }
+    #top-left {
+      opacity: 1;
+    }
+  }
+
+  &.one {
+    #top-right {
+      opacity: 1;
+    }
+    #bottom-right {
+      opacity: 1;
+    }
+  }
+
+  &.two {
+    #top {
+      opacity: 1;
+    }
+    #top-right {
+      opacity: 1;
+    }
+    #middle {
+      opacity: 1;
+    }
+    #bottom-left {
+      opacity: 1;
+    }
+    #bottom {
+      opacity: 1;
+    }
+  }
+
+  &.three > {
+    #top {
+      opacity: 1;
+    }
+    #top-right {
+      opacity: 1;
+    }
+    #bottom-right {
+      opacity: 1;
+    }
+    #bottom {
+      opacity: 1;
+    }
+    #middle {
+      opacity: 1;
+    }
+  }
+
+  &.four > {
+    #top-left {
+      opacity: 1;
+    }
+    #top-right {
+      opacity: 1;
+    }
+    #bottom-right {
+      opacity: 1;
+    }
+    #middle {
+      opacity: 1;
+    }
+  }
+
+
+}
+
+
+
+
+
+
+
+#top {
+  position: absolute;
+  border-top: 8px solid #bada55;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  height: 0;
+  width: 60px;
+
+  opacity: 0;
+
+
+
+
+
+}
+
+#top-right {
+    position: absolute;
+    top: 25.6%;
+    right: -49.5%;
+    border-top: 8px solid #bada55;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    height: 0;
+    width: 69px;
+    transform: rotate(90deg);
+
+opacity: 0;
+
+
+
+}
+
+#bottom-right {
+
+  position: absolute;
+  top: 75.6%;
+  right: -41.5%;
+  border-top: 8px solid #bada55;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  height: 0;
+  width: 52px;
+  transform: rotate(90deg);
+  // position: absolute;
+  // right: 0px;
+  // bottom: 0px;
+  // height: 100px;
+  // width: 4px;
+  // background: #bada55;
+opacity: 0;
+
+
+
+}
+
+#bottom {
+  position: absolute;
+  bottom: 0px;
+  border-bottom: 8px solid #bada55;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  height: 0;
+  width: 60px;
+  // background: #bada55;
+opacity: 0;
+
+
+}
+
+#bottom-left {
+  position: absolute;
+  top: 75.6%;
+  right: 49%;
+  border-bottom: 8px solid #bada55;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  height: 0;
+  width: 52px;
+  transform: rotate(90deg);
+
+  opacity: 0;
+
+}
+
+#top-left {
+
+  position: absolute;
+top: 25.6%;
+right: 41.5%;
+border-bottom: 8px solid #bada55;
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+height: 0;
+width: 69px;
+transform: rotate(90deg);
+opacity: 0;
+  // position: absolute;
+  // left: 0px;
+  // height: 100px;
+  // width: 4px;
+  // background: #bada55;
+
+}
+
+#middle {
+  position: absolute;
+
+  top: 50%;
+  // left: 300%;
+
+  border-bottom: 8px solid #bada55;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  height: 0;
+  width: 60px;
+  opacity: 0;
+  // width: 200px;
+  // height: 10px;
+  // background: #bada55;
+
+}
